@@ -4,7 +4,7 @@ from . import models, forms
 
 def home(request):
     query = models.ProductoCategoria.objects.all()
-    if "consulta" in request.GET:  # Verificar si la clave 'consulta' está presente
+    if "consulta" in request.GET:  
         consulta = request.GET["consulta"]
         query = models.ProductoCategoria.objects.filter(nombre__icontains=consulta)
     else:        
