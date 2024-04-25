@@ -11,9 +11,9 @@
             <input type="text" name="consulta" placeholder="Buscar📡">
         </form>
     </div>
-    <ul>
+    <ul class="list-group mb-4">
         {% for producto in productos  %}
-            <li>{{ producto }} </li> 
+            <li class="list-group-item">{{ producto }} </li> 
         {% endfor %}
     </ul>
     {#<a href="{% url 'core:home' %}">Ir a home</a>#}
