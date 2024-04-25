@@ -3,7 +3,6 @@
     Productos
 {% endblock titulo %}
 {% block contenido %}
-<<<<<<< HEAD
     <div class="fs-3 ">
         <a href="{% url 'producto:productocategoria_create' %}">Crear categorias de Productos</a>
     </div>
@@ -19,21 +18,4 @@
     </ul>
     {#<a href="{% url 'core:home' %}">Ir a home</a>#}
 
-=======
-
-    <div class="fs-3 pb-4">
-        <a href="{% url 'producto:productocategoria_create' %}">Crear Categorías de Productos</a>
-    </div>
-    <div class="py-lg-4 ">
-        <form action="{% url 'producto:home' %}" method="get">
-            <input type="text" name="consulta" placeholder="Buscar...">
-        </form>
-    </div>
-    <ul>
-        {% for producto in productos %}<li>{{ producto }}</li>{% endfor %}
-    </ul>
-    {% comment  %}
-        <a href="{% url 'core:home' %}">Ir a home</a>
-    {% endcomment %}
->>>>>>> 7a31654625695f762d69b3c101522cde5b3a90d4
 {% endblock contenido %}
