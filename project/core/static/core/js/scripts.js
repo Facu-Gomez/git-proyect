@@ -1,4 +1,5 @@
 /*!
+<<<<<<< HEAD
 * Start Bootstrap - Creative v7.0.7 (https://startbootstrap.com/theme/creative)
 * Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
@@ -57,3 +58,11 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+=======
+* Start Bootstrap - Small Business v5.0.6 (https://startbootstrap.com/template/small-business)
+* Copyright 2013-2023 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-small-business/blob/master/LICENSE)
+*/
+// This file is intentionally blank
+// Use this file to add JavaScript to your project
+>>>>>>> 7a31654625695f762d69b3c101522cde5b3a90d4
